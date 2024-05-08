@@ -1,0 +1,39 @@
+body {
+    background-color: blueviolet;
+    margin: auto;
+    text-align: center;
+}
+
+#add {
+    display: flex;
+    background-color: blueviolet;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+#taskbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3rem auto;
+    border: 2px solid red;
+
+    width: 300px;
+    height: fit-content;
+}
+
+#taskbox ul {
+    position: relative;
+    background-color: rgb(227, 227, 227);
+    font-size: 17px;
+    margin: 2px;
+}
+
+#taskbox ul p {
+
+    position: relative;
+
+    margin: 0px auto;
+    text-align: right;
+    cursor: pointer;
+}
